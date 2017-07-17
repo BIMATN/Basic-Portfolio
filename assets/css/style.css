@@ -162,10 +162,36 @@ footer {
     margin-bottom: 20px;
 }
 
-.imageLabelGroup {
+.imageLabelGroup1 {
     width: 475px;
-    height: 475px;
-    border: 1px solid gold;
+    /*border: 1px solid gold;*/
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    left: 76px;
+    top: 185px;
+    z-index: 1;
+}
+
+.imageLabelGroup2 {
+    width: 475px;
+    /*border: 1px solid gold;*/
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    left: 76px;
+    top: 330px;
+    z-index: 1;
+}
+
+.imageLabelGroup3 {
+    width: 475px;
+   /*border: 1px solid gold;*/
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    left: 76px;
+    top: 475px;
     z-index: 1;
 }
 
@@ -174,7 +200,8 @@ footer {
     width:210px;
     height:25px;
     float: left;
-    margin: 80px 0px 0px 20px;
+    opacity: .75;
+    margin: 0px 0px 0px 20px;
     padding: 5px 0px 5px 0px;
     background-color: grey; 
     text-align: center;
