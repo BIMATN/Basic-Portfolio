@@ -1,3 +1,4 @@
+/*----General----*/
 body {
     width: 960px;
     position: relative;
@@ -28,6 +29,13 @@ header {
     padding: 0;
 }
 
+.contentHead {
+    position: relative;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightYellow;
+}
+
 #contactLink {
     margin-right: 100px;
 }
@@ -40,57 +48,16 @@ header {
     border-right: 5px solid grey;
 }
 
-#Large {
-    clear: both;
-    position: relative;
-    background-image: url("../images/stardust.png");
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: black;
-    width: 100%;
-    margin: 0;
-    height: 400px;
-}
-
-#connectMe {
-
-}
-
-#aboutMe {
-    width: 40%;
-    height: 60%;
-    margin: 0;
-    padding: 2%;
-    background-image: url("../images/old_moon.png");
-    border: 1px solid gold;
-    position: absolute;
-    left: 10%;
-    top: 15%;
-}
-
-#aboutHead {
-    position: relative;
-    margin-top: 0;
-    padding-bottom: 10px;
-    border-bottom: 2px solid lightYellow;
-}
-
-#contactHead {
-    position: relative;
-    margin-top: 0;
-    padding-bottom: 10px;
-    border-bottom: 2px solid lightYellow;
-}
-
 #connectWithMe {
-    width: 20%;
-    height: 20%;
+    width: 200px;
+    height: 100px;
     margin:0;
     padding: 20px;
     background-image: url("../images/old_moon.png");
     border: 1px solid gold;
     position: absolute;
     right: 10%;
-    top: 15%;
+    top: 10%;
 }
 
 #connectHead {
@@ -129,10 +96,67 @@ header {
     border: 1px solid orange;
 }
 
-
 footer {
+    clear: both;
     padding:20px;
     text-align: center;
     background-color: grey;
     border-top: 6px ridge lightYellow;
 }
+
+/*----About and Contact Page----*/
+#Large {
+    clear: both;
+    position: relative;
+    background-image: url("../images/stardust.png");
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: black;
+    width: 100%;
+    margin: 0;
+    height: 400px;
+}
+
+#contentArea {
+    width: 40%;
+    height: 75%;
+    margin: 0;
+    padding: 2%;
+    background-image: url("../images/old_moon.png");
+    border: 1px solid gold;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+/*----Porfolio Page----*/
+#portLarge {
+    clear: both;
+    position: relative;
+    background-image: url("../images/stardust.png");
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: black;
+    width: 100%;
+    margin: 0;
+    height: 600px;
+}
+
+#portArea {
+    width: 475px;
+    height: 475px;
+    margin: 0;
+    padding: 2%;
+    background-image: url("../images/old_moon.png");
+    border: 1px solid gold;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.port {
+    width:210px;
+    height:125px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
