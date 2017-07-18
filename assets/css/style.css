@@ -1,4 +1,8 @@
 /*----General----*/
+/* {
+    border: 2px solid red;
+}*/
+
 body {
     width: 960px;
     position: relative;
@@ -71,29 +75,30 @@ header {
 }
 
 #linkedIn {
-    width: 60px;
+    width: 70px;
     height: 70px;
     margin: 0;
     position: absolute;
-    left: 10px;
+    left: 8px;
     bottom: 15px;
+    /*border: 2px solid lightYellow;*/
 }
 
 #gitHub {
-    width: 60px;
+    width: 70px;
     height: 70px;
     margin: 0;
     position: absolute;
-    left: 90px;
+    left: 85px;
     bottom: 15px;
 }
 
 #stackOverflow {
-    width: 59px;
+    width: 69px;
     height: 69px;
     margin: 0;
     position: absolute;
-    left: 170px;
+    left: 163px;
     bottom: 15px;
     border: 1px solid orange;
 }
