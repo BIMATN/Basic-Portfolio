@@ -9,7 +9,7 @@ body {
     background-image: url("../images/debut_light.png");
 }
 
-header {
+#headerName {
     float: left;
 	color: lightYellow;
     font-weight: bold;
@@ -17,10 +17,12 @@ header {
     font-size: 24px;
 	background-color: grey;
 	padding: 20px;
-	margin-left:125px;
-    width: 125px;
+	margin:0 0 0 125px;
+    width: 250px;
     border: 5px solid silver;
+    white-space: nowrap;
 }
+
 
 .navlinks {
     float: right;
