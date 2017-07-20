@@ -1,5 +1,5 @@
 /*----General----*/
-/* {
+/* * {
     border: 2px solid red;
 }*/
 
@@ -109,8 +109,9 @@ footer {
     clear: both;
     padding:20px;
     text-align: center;
+    margin-top: 0px;
     background-color: grey;
-    border-top: 6px ridge lightYellow;
+    border-top: 5px solid lightYellow;
 }
 
 /*----About and Contact Page----*/
