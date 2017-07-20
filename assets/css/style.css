@@ -26,14 +26,13 @@ body {
 
 .navlinks {
     float: right;
-    width: 5em;
     text-decoration: none;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: grey;
     background-color: white;
     margin-top: 40px;
-    padding: 0;
+    padding: 0px 10px 0px 10px;
 }
 
 .contentHead {
