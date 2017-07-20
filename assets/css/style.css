@@ -111,7 +111,7 @@ footer {
     text-align: center;
     margin-top: 0px;
     background-color: grey;
-    border-top: 5px solid lightYellow;
+    border-top: 2px solid lightYellow;
 }
 
 /*----About and Contact Page----*/
@@ -128,7 +128,7 @@ footer {
 
 #contentArea {
     width: 425px;
-    height: 325px;
+    height: 335px;
     margin: 0;
     padding: 2%;
     background-image: url("../images/old_moon.png");
